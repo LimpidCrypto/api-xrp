@@ -1,0 +1,24 @@
+{
+    "name": "LimpidCrypto - XRP API",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "forwardPorts": [
+        3000,
+        6379
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // vscode
+                "Gydunhn.vsc-essentials",
+                // rust
+                "Zerotaskx.rust-extension-pack",
+                "ZhangYue.rust-mod-generator",
+                // general
+                "shd101wyy.markdown-preview-enhanced"
+            ]
+        }
+    }
+    // "postStartCommand": "cd /workspaces/${localWorkspaceFolderBasename}/frontend && npm install && ng build"
+}
